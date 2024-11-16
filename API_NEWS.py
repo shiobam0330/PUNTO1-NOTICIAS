@@ -23,7 +23,7 @@ from nltk.stem import PorterStemmer,WordNetLemmatizer
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-path = "D:/Downloads/INTELIGENCIA ARTIFICIAL/Ejercicios Quiz/PUNTO 1 NEWS/"
+path = os.path.join(os.getcwd(), "PUNTO 1 NEWS")
 
 st.title("Clasificacion de noticias")
 
